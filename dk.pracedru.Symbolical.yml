@@ -12,6 +12,7 @@ finish-args:
   - --device=dri
   - --socket=pulseaudio
   - --env=QT_AUDIO_BACKEND=pulseaudio
+  - --env=QT_SCALE_FACTOR_ROUNDING_POLICY=Round
   - --socket=cups
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
